@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.logo-en-página {
+    width: 100%;
+}
+
+.logo-en-página2 {
+    width: 3%;
+    align-items: center;
+}
+
+.img1 {
+    width: 200px;
+}
+
+.img2 {
+    width: 26px;
+}
+
+.img3 {
+    width: 32px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Redimensión de fuente utilizando rem */
+
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 1.05rem;
+}
+
+
+/* Diseño de columnas */
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-5 {
+    width: 20%;
+    height: 170%;
+    float: left;
+}
+
+.column-6 {
+    width: 16.66%;
+    float: left;
+}
+
+.column-75 {
+    width: 75%;
+    float: left;
+}
+
+
+/* Adicional */
+
+#header {
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+/* Slider menú */
