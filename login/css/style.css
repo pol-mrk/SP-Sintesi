@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Press+Start+2P&family=Quicksand&display=swap');
+body {
+    height: 97vh;
+    background-color: #0e3a4544;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: url(../img/PNG\ IMAGEN.png);
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.row {
+    padding: 0 8%;
+}
+
+input[type=submit] {
+    background-color: #B15AA1;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: #0E3A45;
+    color: #B15AA1;
+}
+
+.bordes {
+    border: 3px solid #0E3A45;
+    border-radius: 50px;
+    padding: 30px;
+    width: 35%;
+}
+
+input,
+select {
+    width: 100%;
+    height: 30px;
+    margin: 5px;
+}
+
+.main {
+    text-align: center;
+    padding-top: 7%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pink {
+    color: #B15AA1;
+}
+
+a:hover {
+    color: #0E3A45;
+}
+
+input:hover {
+    transform: scale(1.02);
+    transition-duration: 0.3s;
+}
+
+.pd {
+    padding-top: 11%;
+    text-align: center;
+}
+
+.join {
+    padding: 30px 30px;
+}
+
+.bordes2 {
+    border: 3px solid #0E3A45;
+    border-radius: 50px;
+    padding: 30px;
+    width: 40%;
+}
