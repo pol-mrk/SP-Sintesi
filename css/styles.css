@@ -141,5 +141,10 @@ p {
     font-size: 20px;
 }
 
+.bordes {
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
 
 /* Slider menú */
