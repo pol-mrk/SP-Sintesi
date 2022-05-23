@@ -40,8 +40,8 @@ button[type=submit] {
     background-color: #B15AA1;
     border: none;
     border-radius: 10px;
-    width: 30%;
-    height: 50px;
+    width: 100%;
+    height: 40px;
     margin: 5px;
 }
 

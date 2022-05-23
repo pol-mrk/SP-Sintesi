@@ -56,6 +56,14 @@
     .img4 {
         width: 180px;
     }
+    
+    .img10 {
+        height: 100%;
+    }
+    
+    .img11 {
+        width: 150%;
+    }
     /* Clear floats after the columns */
     
     .row:after {

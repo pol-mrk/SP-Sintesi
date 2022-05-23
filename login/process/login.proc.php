@@ -30,7 +30,7 @@
         //Si el usuario EXISTE (el correo y la contraseña son las mismas que estan en la bd)
         //le dejaremos pasar y le enviaremos a la vista de las camisetas
         if($existeuser==1){
-            header("location: ../../tienda /camisetas.php");
+            header("location: ../../tienda/view/camisetas.php");
         //Si el usuario NO existe (el correo y la contraseña NO son las mismas que estan en la bd)
         //NO le dejaremos pasar y le enviaremos al login para que vuelva a hacerlo.
         }else{
@@ -38,5 +38,5 @@
         }
     //Si no esta SETEADO (RELLENADO) lo devolvemos al login para que vuelva a empezar
     }else{
-        header("location: ../index.html");
+        header("location: ../../index.html");
     }
