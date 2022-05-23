@@ -1,150 +1,271 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-* {
-    font-family: 'Lato', sans-serif;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-}
-
-header {
-    display: flex;
-    height: 70px;
-    background-color: white;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    height: 50px;
-}
-
-.logo-en-página {
-    width: 100%;
-}
-
-.logo-en-página2 {
-    width: 3%;
-    align-items: center;
-}
-
-.img1 {
-    width: 200px;
-}
-
-.img2 {
-    width: 26px;
-}
-
-.img3 {
-    width: 32px;
-}
-
-
-/* Clear floats after the columns */
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-/* Redimensión de fuente utilizando rem */
-
-p {
-    font-size: 1rem;
-}
-
-h1 {
-    font-size: 3rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-h3 {
-    font-size: 1.6rem;
-}
-
-h4 {
-    font-size: 1.3rem;
-}
-
-h5 {
-    font-size: 1.15rem;
-}
-
-h6 {
-    font-size: 1.05rem;
-}
-
-
-/* Diseño de columnas */
-
-.column-1 {
-    width: 100%;
-    float: left;
-}
-
-.column-2 {
-    width: 50%;
-    float: left;
-}
-
-.column-3 {
-    width: 33.33%;
-    float: left;
-}
-
-.column-4 {
-    width: 25%;
-    float: left;
-}
-
-.column-5 {
-    width: 20%;
-    height: 170%;
-    float: left;
-}
-
-.column-6 {
-    width: 16.66%;
-    float: left;
-}
-
-.column-75 {
-    width: 75%;
-    float: left;
-}
-
-
-/* Adicional */
-
-#header {
-    height: 50vh;
-    background-position: center;
-    background-size: cover;
-    color: black;
-}
-
-p {
-    font-size: 20px;
-}
-
-.bordes {
-    padding-left: 20px;
-    border-radius: 20px;
-}
-
-
-/* Slider menú */
+    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+    * {
+        font-family: 'Lato', sans-serif;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    header {
+        display: flex;
+        height: 70px;
+        background-color: white;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+        height: 50px;
+    }
+    
+    .logo-en-página {
+        width: 100%;
+    }
+    
+    .logo-en-página2 {
+        width: 3%;
+        align-items: center;
+    }
+    
+    .img1 {
+        width: 200px;
+        width: 5%;
+        background-color: white;
+        padding: 8px;
+        border-radius: 50%;
+    }
+    
+    .img2 {
+        width: 30px;
+    }
+    
+    .img3 {
+        width: 26px;
+    }
+    
+    .img4 {
+        width: 180px;
+    }
+    /* Clear floats after the columns */
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* Redimensión de fuente utilizando rem */
+    
+    p {
+        font-size: 1rem;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.6rem;
+    }
+    
+    h4 {
+        font-size: 1.3rem;
+    }
+    
+    h5 {
+        font-size: 1.15rem;
+    }
+    
+    h6 {
+        font-size: 1.05rem;
+    }
+    /* Diseño de columnas */
+    
+    .column-1 {
+        width: 100%;
+        float: none;
+    }
+    
+    .column-2 {
+        width: 50%;
+        float: left;
+    }
+    
+    .column-3 {
+        width: 33.33%;
+        float: left;
+    }
+    
+    .column-4 {
+        width: 25%;
+        float: left;
+    }
+    
+    .column-5 {
+        width: 20%;
+        height: 170%;
+        float: left;
+    }
+    
+    .column-6 {
+        width: 16.66%;
+        float: left;
+    }
+    
+    .column-75 {
+        width: 75%;
+        float: left;
+    }
+    /* Adicional */
+    
+    #header {
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+        color: black;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+    
+    .bordes {
+        padding-left: 20px;
+        border-radius: 20px;
+    }
+    
+    #footer {
+        height: 25vh;
+        background-color: black;
+        color: white;
+        padding: 20px;
+    }
+    
+    .parrafo3 {
+        padding-left: 25px;
+        padding-right: 10px;
+        padding-top: 25px;
+    }
+    
+    .cont-font {
+        font-family: 'Manrope', sans-serif;
+        background-image: url(./img/);
+    }
+    
+    a:hover {
+        transform: scale(1.05);
+        transition-duration: 0.3s;
+    }
+    
+    .fondo-txt {
+        background-image: url(../img/fondoJA.png);
+    }
+    
+    .wh-txt {
+        color: white;
+    }
+    
+    .cntr {
+        justify-content: center;
+    }
+    /* Icono Whattssap */
+    
+    .social-menu img:hover {
+        transform: scale(1.05);
+        transition-duration: 0.3s;
+        transform: rotate(0deg) skew(0deg) translate(0, -4px);
+    }
+    /* Slider menú */
+    
+    .contenedor {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .slider-contenedor {
+        width: 100%;
+        display: flex;
+    }
+    
+    .contenido-slider {
+        width: 100%;
+        height: 720px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    
+    .contenido-slider:nth-child(2) {
+        background: #332863;
+        color: #fff;
+    }
+    
+    .contenido-slider:nth-child(3) {
+        background: #611a68;
+    }
+    
+    .contenido-slider>img {
+        width: 105%;
+    }
+    
+    .contenido-slider>div {
+        width: 40%;
+    }
+    
+    .contenido-slider h2 {
+        font-weight: 300;
+        text-align: justify;
+        line-height: 30px;
+    }
+    
+    .contenido-slider a {
+        color: #fff;
+        background: #332863;
+        width: 100px;
+        display: block;
+        padding: 15px 0;
+        text-align: center;
+        border-radius: 3px;
+        margin-top: 20px;
+        text-decoration: none;
+    }
+    
+    .contenido-slider:nth-child(2) a {
+        background: #fff;
+        color: #332863;
+    }
+    
+    @media screen and (max-width:900px) {
+        .contenido-slider>img {
+            width: 250px;
+        }
+        .contenido-slider>div {
+            width: 40%;
+        }
+        .contenido-slider h2 {
+            font-size: 23px;
+        }
+    }
+    
+    @media screen and (max-width:600px) {
+        .contenido-slider {
+            flex-direction: column-reverse;
+        }
+        .contenido-slider>div {
+            width: 80%;
+        }
+    }

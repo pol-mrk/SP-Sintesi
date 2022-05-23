@@ -36,13 +36,16 @@ body {
     padding: 0 8%;
 }
 
-input[type=submit] {
+button[type=submit] {
     background-color: #B15AA1;
     border: none;
     border-radius: 10px;
+    width: 30%;
+    height: 50px;
+    margin: 5px;
 }
 
-input[type=submit]:hover {
+button[type=submit]:hover {
     background-color: #0E3A45;
     color: #B15AA1;
 }
@@ -74,6 +77,11 @@ a {
     color: #B15AA1;
 }
 
+div .pink:hover {
+    text-decoration: underline;
+    transition: all 400ms ease-in-out;
+}
+
 a:hover {
     color: #0E3A45;
 }
@@ -83,8 +91,13 @@ input:hover {
     transition-duration: 0.3s;
 }
 
+button:hover {
+    transform: scale(1.02);
+    transition-duration: 0.3s;
+}
+
 .pd {
-    padding-top: 11%;
+    padding-top: 14%;
     text-align: center;
 }
 
