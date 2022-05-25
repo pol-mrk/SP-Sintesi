@@ -183,3 +183,70 @@ div.card.show div.flap2 {
     -webkit-transition: all 0.3s 0.2s ease-out;
     transition: all 0.3s 0.2s ease-out;
 }
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Diseño de columnas */
+
+.column-1 {
+    width: 100%;
+    float: none;
+}
+
+.column-2 {
+    width: 50%;
+    float: right;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-5 {
+    width: 20%;
+    height: 170%;
+    float: left;
+}
+
+.column-6 {
+    width: 16.66%;
+    float: left;
+}
+
+.column-75 {
+    width: 75%;
+    float: left;
+}
+
+
+/* Adicional */
+
+#header2 {
+    height: 15vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    background-color: rgb(177, 173, 173);
+}
+
+.img2 {
+    width: 10px;
+}
+
+.row {
+    height: 15%;
+}

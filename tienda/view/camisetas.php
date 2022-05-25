@@ -97,12 +97,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--Link para que las cartas funcionen!-->
         <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet" >
         <link rel="stylesheet" href="../css/styles.css">
         <!--Link para que las cartas funcionen!-->
         <script src="../js/cartas.js"></script>
         <title>Camisetas</title>
     </head>
     <body>
+      <div class="row">
+        <div id="header2" class="column2">
+          <a href=""><img src="../../img/carrito.png" alt="" class="img2"></a>
+        </div>
+      </div>
         <div class="contenido">
         <?php
           $conexion = mysqli_connect("localhost", "root", "", "bd_camisetaspol");

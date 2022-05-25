@@ -40,8 +40,8 @@ button[type=submit] {
     background-color: #B15AA1;
     border: none;
     border-radius: 10px;
-    width: 100%;
-    height: 40px;
+    width: 65%;
+    height: 35px;
     margin: 5px;
 }
 
@@ -53,20 +53,21 @@ button[type=submit]:hover {
 .bordes {
     border: 3px solid #0E3A45;
     border-radius: 50px;
-    padding: 30px;
+    padding: 45px;
     width: 35%;
 }
 
 input,
 select {
-    width: 100%;
+    width: 90%;
     height: 30px;
-    margin: 5px;
+    margin: 0px;
+    border-radius: 10px;
 }
 
 .main {
     text-align: center;
-    padding-top: 7%;
+    padding-top: 6%;
 }
 
 a {
@@ -98,6 +99,11 @@ button:hover {
 
 .pd {
     padding-top: 14%;
+    text-align: center;
+}
+
+.pd2 {
+    padding-top: 16%;
     text-align: center;
 }
 
